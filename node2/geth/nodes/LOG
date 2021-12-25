@@ -1,0 +1,37 @@
+=============== Dec 25, 2021 (AWST) ===============
+18:39:13.119546 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:39:13.200639 db@open opening
+18:39:13.201609 version@stat F·[] S·0B[] Sc·[]
+18:39:13.329339 db@janitor F·2 G·0
+18:39:13.329339 db@open done T·128.6998ms
+19:09:11.389234 db@close closing
+19:09:11.389234 db@close done T·0s
+=============== Dec 25, 2021 (AWST) ===============
+19:11:57.238425 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:11:57.238425 version@stat F·[] S·0B[] Sc·[]
+19:11:57.238425 db@open opening
+19:11:57.239422 journal@recovery F·1
+19:11:57.244133 journal@recovery recovering @1
+19:11:57.559348 memdb@flush created L0@2 N·15047 S·350KiB "loc..seq,v27":"version,v1"
+19:11:57.559348 version@stat F·[1] S·350KiB[350KiB] Sc·[0.25]
+19:11:57.769975 db@janitor F·3 G·0
+19:11:57.769975 db@open done T·530.5533ms
+20:06:14.903954 db@close closing
+20:06:14.903954 db@close done T·0s
+=============== Dec 25, 2021 (AWST) ===============
+20:20:23.730133 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:20:23.730133 version@stat F·[1] S·350KiB[350KiB] Sc·[0.25]
+20:20:23.730133 db@open opening
+20:20:23.730133 journal@recovery F·1
+20:20:23.730133 journal@recovery recovering @3
+20:20:23.958677 memdb@flush created L0@5 N·35266 S·701KiB "loc..seq,v15066":"n:\xff..ong,v15404"
+20:20:23.958677 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+20:20:24.008586 db@janitor F·4 G·0
+20:20:24.008586 db@open done T·278.4532ms
+20:20:24.020553 table@compaction L0·2 -> L1·0 S·1MiB Q·50316
+20:20:24.137292 table@build created L1@8 N·14458 S·536KiB "loc..seq,v15066":"version,v1"
+20:20:24.137292 version@stat F·[0 1] S·536KiB[0B 536KiB] Sc·[0.00 0.01]
+20:20:24.166836 table@compaction committed F-1 S-514KiB Ke·0 D·35855 T·146.2833ms
+20:20:24.167875 table@remove removed @2
+21:15:10.200026 db@close closing
+21:15:10.200026 db@close done T·0s
